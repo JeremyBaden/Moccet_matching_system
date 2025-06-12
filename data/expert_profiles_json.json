@@ -1,0 +1,328 @@
+{
+  "senior_fullstack_developer": {
+    "role": "Senior Full-Stack Developer",
+    "description": "Experienced developer with deep knowledge across the entire technology stack",
+    "skills": [
+      "system architecture",
+      "code review",
+      "technical mentoring",
+      "performance optimization",
+      "database design",
+      "api development",
+      "security best practices",
+      "testing strategies"
+    ],
+    "experience_domains": [
+      "frontend",
+      "backend", 
+      "database",
+      "cloud"
+    ],
+    "collaboration_agents": [
+      "GitHub Copilot",
+      "OpenAI GPT-4",
+      "Amazon CodeWhisperer",
+      "Claude 2"
+    ],
+    "hourly_rate_range": "$80-150/hour",
+    "typical_engagement": "Full project lifecycle",
+    "best_for": [
+      "Technical leadership",
+      "Architecture decisions", 
+      "Code quality oversight",
+      "Junior developer mentoring"
+    ]
+  },
+  "ui_ux_designer": {
+    "role": "UI/UX Designer",
+    "description": "Design specialist focused on user experience and interface optimization",
+    "skills": [
+      "user research",
+      "wireframing",
+      "prototyping",
+      "design systems",
+      "user testing",
+      "accessibility design",
+      "information architecture",
+      "interaction design"
+    ],
+    "experience_domains": [
+      "design",
+      "frontend",
+      "mobile"
+    ],
+    "collaboration_agents": [
+      "Galileo AI",
+      "Uizard Autodesigner", 
+      "OpenAI GPT-4",
+      "Claude 2"
+    ],
+    "hourly_rate_range": "$60-120/hour",
+    "typical_engagement": "Design phase + iterations",
+    "best_for": [
+      "User experience optimization",
+      "Design system creation",
+      "Usability testing",
+      "Brand consistency"
+    ]
+  },
+  "devops_engineer": {
+    "role": "DevOps Engineer",
+    "description": "Infrastructure and deployment specialist ensuring reliable, scalable operations",
+    "skills": [
+      "infrastructure as code",
+      "ci/cd pipelines",
+      "container orchestration",
+      "monitoring and alerting",
+      "security automation",
+      "performance optimization",
+      "disaster recovery",
+      "cost optimization"
+    ],
+    "experience_domains": [
+      "cloud",
+      "backend",
+      "security"
+    ],
+    "collaboration_agents": [
+      "Amazon CodeWhisperer",
+      "OpenAI GPT-4",
+      "GitHub Copilot",
+      "Amazon CodeGuru"
+    ],
+    "hourly_rate_range": "$90-160/hour",
+    "typical_engagement": "Infrastructure setup + ongoing support",
+    "best_for": [
+      "Cloud architecture",
+      "Automated deployments",
+      "Performance monitoring",
+      "Security compliance"
+    ]
+  },
+  "qa_engineer": {
+    "role": "QA Engineer",
+    "description": "Quality assurance specialist ensuring robust, reliable software delivery",
+    "skills": [
+      "test planning",
+      "automated testing",
+      "performance testing",
+      "security testing",
+      "test framework design",
+      "bug tracking",
+      "quality metrics",
+      "regression testing"
+    ],
+    "experience_domains": [
+      "testing",
+      "backend",
+      "frontend"
+    ],
+    "collaboration_agents": [
+      "Diffblue Cover",
+      "Tabnine",
+      "OpenAI GPT-4",
+      "JetBrains AI Assistant"
+    ],
+    "hourly_rate_range": "$70-130/hour",
+    "typical_engagement": "Testing phase + automation setup",
+    "best_for": [
+      "Test automation",
+      "Quality assurance",
+      "Performance testing",
+      "Bug prevention"
+    ]
+  },
+  "data_scientist": {
+    "role": "Data Scientist",
+    "description": "Analytics and machine learning specialist for data-driven solutions",
+    "skills": [
+      "machine learning",
+      "data analysis",
+      "statistical modeling",
+      "data visualization",
+      "feature engineering",
+      "model deployment",
+      "a/b testing",
+      "data pipeline design"
+    ],
+    "experience_domains": [
+      "data",
+      "backend",
+      "cloud"
+    ],
+    "collaboration_agents": [
+      "OpenAI GPT-4",
+      "Claude 2",
+      "Hugging Face Transformers",
+      "Cohere Command"
+    ],
+    "hourly_rate_range": "$100-180/hour",
+    "typical_engagement": "Data strategy + model development",
+    "best_for": [
+      "ML model development",
+      "Data strategy",
+      "Analytics implementation",
+      "AI feature development"
+    ]
+  },
+  "technical_project_manager": {
+    "role": "Technical Project Manager",
+    "description": "Project coordination specialist with technical background",
+    "skills": [
+      "project planning",
+      "risk management",
+      "stakeholder communication",
+      "agile methodologies",
+      "resource allocation",
+      "timeline management",
+      "technical documentation",
+      "team coordination"
+    ],
+    "experience_domains": [
+      "management",
+      "planning",
+      "coordination"
+    ],
+    "collaboration_agents": [
+      "OpenAI GPT-4",
+      "Claude 2",
+      "Mintlify Docs AI"
+    ],
+    "hourly_rate_range": "$80-140/hour",
+    "typical_engagement": "Full project lifecycle",
+    "best_for": [
+      "Project coordination",
+      "Risk management",
+      "Stakeholder communication",
+      "Team management"
+    ]
+  },
+  "mobile_developer": {
+    "role": "Mobile Developer",
+    "description": "Specialist in iOS, Android, and cross-platform mobile development",
+    "skills": [
+      "native mobile development",
+      "cross-platform frameworks",
+      "mobile ui/ux",
+      "app store optimization",
+      "mobile performance",
+      "push notifications",
+      "mobile security",
+      "offline capabilities"
+    ],
+    "experience_domains": [
+      "mobile",
+      "frontend"
+    ],
+    "collaboration_agents": [
+      "GitHub Copilot",
+      "OpenAI GPT-4",
+      "Tabnine"
+    ],
+    "hourly_rate_range": "$75-140/hour",
+    "typical_engagement": "Mobile development phase",
+    "best_for": [
+      "Native app development",
+      "Cross-platform solutions", 
+      "Mobile optimization",
+      "App store deployment"
+    ]
+  },
+  "security_specialist": {
+    "role": "Security Specialist",
+    "description": "Cybersecurity expert ensuring secure application development",
+    "skills": [
+      "security assessment",
+      "penetration testing",
+      "secure coding practices",
+      "compliance auditing",
+      "threat modeling",
+      "security architecture",
+      "incident response",
+      "vulnerability management"
+    ],
+    "experience_domains": [
+      "security",
+      "backend",
+      "cloud"
+    ],
+    "collaboration_agents": [
+      "OpenAI GPT-4",
+      "Amazon CodeGuru",
+      "Claude 2"
+    ],
+    "hourly_rate_range": "$110-200/hour",
+    "typical_engagement": "Security review + implementation",
+    "best_for": [
+      "Security audits",
+      "Compliance requirements",
+      "Secure architecture",
+      "Vulnerability assessment"
+    ]
+  },
+  "blockchain_developer": {
+    "role": "Blockchain Developer", 
+    "description": "Specialist in distributed ledger technologies and smart contracts",
+    "skills": [
+      "smart contract development",
+      "blockchain architecture",
+      "cryptocurrency integration",
+      "defi protocols",
+      "web3 integration",
+      "consensus mechanisms",
+      "tokenomics",
+      "blockchain security"
+    ],
+    "experience_domains": [
+      "blockchain",
+      "backend",
+      "security"
+    ],
+    "collaboration_agents": [
+      "OpenAI GPT-4",
+      "GitHub Copilot",
+      "Claude 2"
+    ],
+    "hourly_rate_range": "$120-220/hour",
+    "typical_engagement": "Blockchain implementation phase",
+    "best_for": [
+      "Smart contract development",
+      "DeFi applications",
+      "NFT platforms",
+      "Cryptocurrency integration"
+    ]
+  },
+  "ai_ml_engineer": {
+    "role": "AI/ML Engineer",
+    "description": "Specialist in artificial intelligence and machine learning implementation",
+    "skills": [
+      "deep learning",
+      "neural networks",
+      "mlops",
+      "model optimization",
+      "ai system design",
+      "natural language processing",
+      "computer vision",
+      "reinforcement learning"
+    ],
+    "experience_domains": [
+      "data",
+      "ai",
+      "backend"
+    ],
+    "collaboration_agents": [
+      "OpenAI GPT-4",
+      "Claude 2",
+      "Hugging Face Transformers",
+      "Auto-GPT"
+    ],
+    "hourly_rate_range": "$130-250/hour",
+    "typical_engagement": "AI feature development",
+    "best_for": [
+      "AI system development",
+      "Custom model training",
+      "MLOps implementation",
+      "AI feature integration"
+    ]
+  }
+}
