@@ -13,8 +13,8 @@ from pathlib import Path
 # Add src directory to Python path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from matching_system import ProjectRequirementAnalyzer
-from data_loader import load_agent_catalog, load_matching_config
+from src.matching_system import ProjectRequirementAnalyzer
+from src.data_loader import load_agent_catalog, load_matching_config
 import time
 
 def print_banner(title: str):
