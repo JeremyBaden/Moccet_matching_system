@@ -1,0 +1,189 @@
+{
+  "matching_weights": {
+    "domain_alignment": 0.4,
+    "technology_overlap": 0.3,
+    "complexity_match": 0.2,
+    "cost_efficiency": 0.1
+  },
+  "cost_optimization_rules": {
+    "budget_conscious": {
+      "prefer_free_tiers": true,
+      "max_monthly_ai_cost": 100,
+      "prioritize_open_source": true,
+      "human_expert_hours_limit": 40
+    },
+    "balanced": {
+      "prefer_free_tiers": false,
+      "max_monthly_ai_cost": 300,
+      "prioritize_open_source": false,
+      "human_expert_hours_limit": 80
+    },
+    "premium": {
+      "prefer_free_tiers": false,
+      "max_monthly_ai_cost": 1000,
+      "prioritize_open_source": false,
+      "human_expert_hours_limit": 160
+    }
+  },
+  "complexity_thresholds": {
+    "low": {
+      "max_domains": 2,
+      "max_technologies": 5,
+      "team_size_multiplier": 1.0
+    },
+    "medium": {
+      "max_domains": 4,
+      "max_technologies": 10,
+      "team_size_multiplier": 1.5
+    },
+    "high": {
+      "max_domains": 8,
+      "max_technologies": 20,
+      "team_size_multiplier": 2.5
+    }
+  },
+  "domain_priorities": {
+    "startup": {
+      "frontend": 0.9,
+      "backend": 0.8,
+      "cloud": 0.7,
+      "design": 0.8,
+      "mobile": 0.6,
+      "data": 0.5,
+      "testing": 0.6,
+      "security": 0.7
+    },
+    "enterprise": {
+      "frontend": 0.7,
+      "backend": 0.9,
+      "cloud": 0.9,
+      "design": 0.6,
+      "mobile": 0.7,
+      "data": 0.8,
+      "testing": 0.9,
+      "security": 0.9
+    },
+    "general": {
+      "frontend": 0.8,
+      "backend": 0.8,
+      "cloud": 0.8,
+      "design": 0.7,
+      "mobile": 0.7,
+      "data": 0.7,
+      "testing": 0.8,
+      "security": 0.8
+    }
+  },
+  "agent_compatibility_matrix": {
+    "OpenAI GPT-4": {
+      "works_well_with": ["GitHub Copilot", "Claude 2", "Mintlify Docs AI"],
+      "conflicts_with": [],
+      "complementary_experts": ["Senior Full-Stack Developer", "Technical Project Manager"]
+    },
+    "GitHub Copilot": {
+      "works_well_with": ["OpenAI GPT-4", "Amazon CodeWhisperer", "JetBrains AI Assistant"],
+      "conflicts_with": ["Tabnine", "Codeium"],
+      "complementary_experts": ["Senior Full-Stack Developer", "QA Engineer"]
+    },
+    "Amazon CodeWhisperer": {
+      "works_well_with": ["GitHub Copilot", "OpenAI GPT-4"],
+      "conflicts_with": [],
+      "complementary_experts": ["DevOps Engineer", "Senior Full-Stack Developer"]
+    },
+    "Claude 2": {
+      "works_well_with": ["OpenAI GPT-4", "Mintlify Docs AI"],
+      "conflicts_with": [],
+      "complementary_experts": ["Technical Project Manager", "Senior Full-Stack Developer"]
+    }
+  },
+  "industry_specific_considerations": {
+    "fintech": {
+      "required_capabilities": ["security", "compliance", "encryption"],
+      "preferred_agents": ["OpenAI GPT-4", "Amazon CodeWhisperer", "Diffblue Cover"],
+      "compliance_requirements": ["SOX", "PCI-DSS", "GDPR"],
+      "security_priority": "critical"
+    },
+    "healthcare": {
+      "required_capabilities": ["security", "compliance", "data protection"],
+      "preferred_agents": ["OpenAI GPT-4", "Claude 2"],
+      "compliance_requirements": ["HIPAA", "GDPR", "FDA"],
+      "security_priority": "critical"
+    },
+    "ecommerce": {
+      "required_capabilities": ["scalability", "payment processing", "user experience"],
+      "preferred_agents": ["GitHub Copilot", "Galileo AI", "Uizard Autodesigner"],
+      "compliance_requirements": ["PCI-DSS", "GDPR"],
+      "security_priority": "high"
+    },
+    "startup": {
+      "required_capabilities": ["rapid development", "cost efficiency", "mvp focus"],
+      "preferred_agents": ["Codeium", "Replit Ghostwriter", "Uizard Autodesigner"],
+      "compliance_requirements": [],
+      "security_priority": "medium"
+    }
+  },
+  "success_criteria_templates": {
+    "development_speed": {
+      "metrics": ["Lines of code per day", "Features completed per sprint"],
+      "targets": {"low": "20% improvement", "medium": "35% improvement", "high": "50% improvement"}
+    },
+    "code_quality": {
+      "metrics": ["Test coverage", "Code review pass rate", "Bug density"],
+      "targets": {"low": ">70% coverage", "medium": ">80% coverage", "high": ">90% coverage"}
+    },
+    "cost_efficiency": {
+      "metrics": ["Cost per feature", "Total project cost vs budget"],
+      "targets": {"low": "Within 10% of budget", "medium": "Within 15% of budget", "high": "Within 20% of budget"}
+    }
+  },
+  "risk_assessment_factors": {
+    "high_risk_indicators": [
+      "tight deadline with high complexity",
+      "new technology stack",
+      "distributed team",
+      "unclear requirements",
+      "no prior domain experience"
+    ],
+    "medium_risk_indicators": [
+      "moderate timeline pressure",
+      "some new technologies",
+      "mixed experience levels",
+      "evolving requirements"
+    ],
+    "mitigation_strategies": {
+      "tight_timeline": ["Prioritize core features", "Increase team size", "Use proven tools"],
+      "new_technology": ["Allocate learning time", "Get expert consultation", "Prototype early"],
+      "unclear_requirements": ["Increase stakeholder communication", "Use iterative approach", "Document assumptions"]
+    }
+  },
+  "team_size_guidelines": {
+    "solo_developer": {
+      "max_complexity": "medium",
+      "recommended_agents": ["GitHub Copilot", "Codeium", "Replit Ghostwriter"],
+      "focus_areas": ["productivity tools", "documentation automation"]
+    },
+    "small_team": {
+      "team_size": "2-5 people",
+      "max_complexity": "high",
+      "recommended_agents": ["GitHub Copilot", "OpenAI GPT-4", "Tabnine"],
+      "focus_areas": ["collaboration tools", "code review automation"]
+    },
+    "large_team": {
+      "team_size": "6+ people",
+      "max_complexity": "enterprise",
+      "recommended_agents": ["OpenAI GPT-4", "Amazon CodeWhisperer", "Diffblue Cover"],
+      "focus_areas": ["enterprise tools", "quality assurance", "documentation"]
+    }
+  },
+  "performance_benchmarks": {
+    "analysis_speed": {
+      "target_processing_time": "< 2 seconds",
+      "max_processing_time": "< 5 seconds"
+    },
+    "accuracy_targets": {
+      "agent_matching": "> 85%",
+      "complexity_assessment": "> 90%",
+      "cost_estimation": "± 20%"
+    }
+  }
+}
