@@ -179,7 +179,7 @@ recommendation = analyzer.generate_comprehensive_recommendation(
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/ai-agent-matching-system.git
+git clone https://github.com/yourusername/Moccet_matching_system.git
 cd ai-agent-matching-system
 
 # 2. Create virtual environment (recommended)
