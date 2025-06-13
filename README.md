@@ -21,8 +21,8 @@ Transform overwhelming technology decisions into **clear, actionable intelligenc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-agent-matching-system.git
-cd ai-agent-matching-system
+git clone https://github.com/JeremyBaden/Moccet_matching_system.git
+cd Moccet_matching_system
 
 # Install dependencies
 pip install -r requirements.txt
