@@ -180,7 +180,7 @@ recommendation = analyzer.generate_comprehensive_recommendation(
 ```bash
 # 1. Clone the repository
 git clone https://github.com/JeremyBaden/Moccet_matching_system.git
-cd ai-agent-matching-system
+cd Moccet_matching_system
 
 # 2. Create virtual environment (recommended)
 python -m venv venv
